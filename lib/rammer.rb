@@ -2,7 +2,7 @@ require "rammer/version"
 require 'fileutils'
 $gem_file_name = "rammer-"+Rammer::VERSION
 module Rammer
-    #Generator Class
+    #GeneratorClass
   	class Generator
 	  	attr_accessor :target_dir, :project_name, :module_name, :gem_path
         BASE_DIR = ['app', 'app/apis', 'config', 'db', 'db/migrate', 'app/models']          
